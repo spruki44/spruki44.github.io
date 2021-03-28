@@ -1,0 +1,102 @@
+
+
+body {
+    background-image: linear-gradient(#646f4bff,#231B20);
+    padding: 0 1% 1% 1%;
+    
+
+}
+
+.container{
+    background-color: #4D5639;
+    border: 2px solid #4D5639;
+    border-radius: 5px;
+}
+
+
+.title{
+    text-align: center;
+    color:#fffbbdff;
+    border: 2px solid #4D5639;
+    border-radius: 2px;
+    position: relative;
+}
+
+.title img{
+    float: center;
+}
+
+.child{
+    padding: 1%;
+    text-align: center;
+    color:#fffbbdff;
+    background-color:#646f4bff;
+    border: 2px solid #4D5639;
+    border-radius: 2px;
+    
+}
+
+.child img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+
+
+figcaption{
+    text-align: center;
+    color:#fffbbdff;
+}
+
+figure img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border: 2px solid #4D5639;
+    border-radius: 5px;
+
+    
+
+}
+
+a {
+    color: #ffb100ff;
+}
+
+footer{
+ 
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+
+hr{
+ color: #4D5639 ; 
+ border-style:solid;
+}
+
+
+
+/* Responsive stuff */
+
+.question{
+    text-align: left;
+    font-weight: 900;
+}
+
+.answer{
+    text-align: left;
+    font-size: 0.8em;
+}
+@media only screen and (min-width: 1000px;) , (orientation:landscape) {
+    
+    body {
+        padding: 0 30% 10% 30%;
+    }
+}
